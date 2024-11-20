@@ -9,7 +9,7 @@ import {faker} from '@faker-js/faker';
 import {getRegistrationInfo, getNewChallenge, convertChallenge, findUser} from './utils';
 
 // CONST
-const RP_NAME = 'PROBIT passkey test';
+const RP_NAME = 'passkey test';
 const RP_ID = 'localhost';
 const FRONTEND_PORT = '3000';
 const EXPECTED_ORIGIN = `http://${RP_ID}:${FRONTEND_PORT}`;
